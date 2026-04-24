@@ -28,7 +28,7 @@ class BurpExtender(IBurpExtender, IContextMenuFactory):
     def createMenuItems(self, invocation):
         menu_list = util.ArrayList()
         item = JMenuItem(
-            "Send to Auth Bypass Tester",
+            "Send to GhostPass",
             actionPerformed=lambda e: self._send_to_panel(invocation)
         )
         menu_list.add(item)
