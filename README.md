@@ -66,12 +66,7 @@ GhostPass automatically detects and flags the following headers:
 3. Under **Python environment**, click **Select file**
 4. Point to your `jython-standalone-2.7.x.jar` file
 ### Step 2 — Download GhostPass
- 
-```bash
-git clone https://github.com/YOURUSERNAME/GhostPass.git
-```
- 
-Or download the ZIP from the releases page and extract it.
+
  
 ### Step 3 — Load the Extension
  
